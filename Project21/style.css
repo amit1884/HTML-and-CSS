@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Muli', sans-serif;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+.empty{
+  height:150px;
+  width:150px;
+  margin:10px;
+  border:3p solid #000;
+  background-color: #fff;
+
+}
+.fill{
+  background-image: url('https://media.istockphoto.com/photos/deep-in-the-wild-woods-sunbeams-illuminating-green-forest-panorama-picture-id1292588329?b=1&k=20&m=1292588329&s=170667a&w=0&h=5DT_KIu2TPj7pLD6J2C41Lz3vCj8LcD2dLr79VAFDwE=');
+  height:145px;
+  cursor: pointer;
+}
+.hold{
+  border:5px solid #ccc;
+}
+
+.hovered{
+  background-color: #3333;
+  border-color: white;
+  border-style: dashed;
+}
+@media(max-width:800px) {
+  
+  body{
+    flex-direction: column;
+  }
+}
